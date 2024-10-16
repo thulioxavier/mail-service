@@ -26,6 +26,6 @@ export const sendMail = async (
       },
     };
   } catch (error) {
-    return { error: error };
+    return { error: [error] };
   }
 };
