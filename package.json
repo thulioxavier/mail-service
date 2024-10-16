@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch --env-file .env src/http/server.ts",
-    "kill:port": "kill $(lsof -t -i:5000)"
+    "kill:port": "kill $(lsof -t -i:5000)",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^20.14.7",
